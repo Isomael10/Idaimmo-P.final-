@@ -1,0 +1,80 @@
+export const properties = [
+  {
+    id: 1,
+    title: "Appartement moderne avec vue",
+    type: "Appartement",
+    status: "À vendre",
+    price: 35000000,
+    area: 85,
+    rooms: 3,
+    bedrooms: 2,
+    address: "123 Avenue Principale, Dakar",
+    description: "Bel appartement rénové avec vue dégagée, lumineux et spacieux.",
+    image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+  },
+  {
+    id: 2,
+    title: "Villa spacieuse avec jardin",
+    type: "Villa",
+    status: "À vendre",
+    price: 75000000,
+    area: 220,
+    rooms: 6,
+    bedrooms: 4,
+    address: "45 Rue des Fleurs, Saly",
+    description: "Grande villa familiale avec jardin et piscine. Quartier calme et résidentiel.",
+    image: "public/villa1.jpg"
+  }, 
+  {
+    id: 3,
+    title: "Appartement au centre-ville",
+    type: "Appartement",
+    status: "À louer",
+    price: 350000,
+    area: 65,
+    rooms: 2,
+    bedrooms: 1,
+    address: "8 Place Centrale, Dakar",
+    description: "Appartement idéal pour famille ou expatrié, proche de toutes commodités et transports.",
+    image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80"
+  },
+  {
+    id: 4,
+    title: "Maison traditionnelle rénovée",
+    type: "Maison",
+    status: "À vendre",
+    price: 45000000,
+    area: 150,
+    rooms: 5,
+    bedrooms: 3,
+    address: "27 Rue de la Paix, Dakar",
+    description: "Maison traditionnelle entièrement rénovée avec goût, conservant son charme d'origine.",
+    image: "public/maison1.png"
+  },
+ {
+    id: 5,
+    title: "Local commercial en centre-ville",
+    type: "Commerce",
+    status: "À louer",
+    price: 700000,
+    area: 120,
+    rooms: 3,
+    bedrooms: 0,
+    address: "56 Avenue du Commerce, Dakar",
+    description: "Local commercial idéalement situé en centre-ville, forte visibilité et passage important.",
+    image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2158&q=80"
+  },
+  {
+    id: 6,
+    title: "Terrain constructible avec vue mer",
+    type: "Terrain",
+    status: "À vendre",
+    price: 25000000,
+    area: 800,
+    rooms: 0,
+    bedrooms: 0,
+    address: "Quartier Les Almadies, Dakar",
+    description: "Magnifique terrain constructible avec vue sur la mer, idéal pour construction de villa ou petit immeuble.",
+    image: "public/image1.png"
+  }
+];
