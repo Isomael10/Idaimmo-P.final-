@@ -44,7 +44,7 @@ export default function PropertyModal({ property, onClose }) {
               <img src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/icons/map-pin.svg" alt="Location" width="18" height="18" /> {property.address}
             </div>
             <div
-              className={property-status ${statusClass}}
+              className={`property-status ${statusClass}`}
               style={{ display: "inline-block", marginTop: 10 }}
             >
               {property.status}
@@ -93,7 +93,7 @@ export default function PropertyModal({ property, onClose }) {
                   id="contact-message"
                   rows={4}
                   required
-                  defaultValue={Je suis intéressé(e) par ce bien (${property.title}). Merci de me contacter pour plus d'informations.}
+                  defaultValue={`Je suis intéressé(e) par ce bien (${property.title}). Merci de me contacter pour plus d'informations.`}
                 />
               </div>
               <button type="submit" className="btn-primary">

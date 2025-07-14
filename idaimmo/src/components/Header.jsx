@@ -17,7 +17,7 @@ export default function Header() {
           <img src="./public/favicon.png" alt="logo" width="24" height="24" />
           <h1>Ida-immo</h1>
         </div>
-        <nav className={main-nav${mobileMenu ? " active" : ""}}>
+        <nav className={`main-nav${mobileMenu ? " active" : ""}`}>
           <ul>
             <li><a href="#home" className="active">Accueil</a></li>
             <li><a href="#properties">Biens Immobiliers</a></li>
@@ -33,7 +33,7 @@ export default function Header() {
           className="mobile-menu-btn"
           onClick={() => setMobileMenu((m) => !m)}
         >
-          <i className={fas ${mobileMenu ? "fa-times" : "fa-bars"}}></i>
+          <i className={`fas ${mobileMenu ? "fa-times" : "fa-bars"}`}></i>
         </div>
       </div>
     </header>
