@@ -17,7 +17,7 @@ export default function PropertyCard({ property, onClick }) {
             "https://via.placeholder.com/300x200?text=Pas+d%27image"}')`
         }}
       >
-        <div className={property-status ${statusClass}}>{property.status}</div>
+        <div className={`property-status ${statusClass}`}>{property.status}</div>
       </div>
       <div className="property-info">
         <h3 className="property-title">{property.title}</h3>
