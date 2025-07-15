@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="footer-col">
             <div className="footer-logo">
               <img src="/public/favicon.png" alt="Building" width="24" height="24" />
-              <h3>Ida-mmo</h3>
+              <h3>Ida-mmo </h3>
             </div>
             <p>
               Votre partenaire de confiance pour tous vos projets immobiliers au Sénégal depuis 2025.
