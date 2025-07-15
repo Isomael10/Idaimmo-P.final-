@@ -22,16 +22,16 @@ export default function Footer() {
             </p>
             <div className="footer-social">
                <a href="#" className="social-link" target="_blank" rel="noopener noreferrer">
-                <img src="public/facebook.svg" alt="Facebook" width="24" height="24" />
+                <img src="public/communication.png" alt="Facebook" width="24" height="24" />
               </a>
               <a href="#" className="social-link" target="_blank" rel="noopener noreferrer">
-                <img src="public/twitter.svg" alt="Twitter" width="24" height="24" />
+                <img src="public/twitter.png" alt="Twitter" width="24" height="24" />
               </a>
               <a href="#" className="social-link" target="_blank" rel="noopener noreferrer">
-                <img src="public/instagram.svg" alt="Instagram" width="24" height="24" />
+                <img src="public/instagram.png" alt="Instagram" width="24" height="24" />
               </a>
               <a href="#" className="social-link" target="_blank" rel="noopener noreferrer">
-                <img src="public/linkedin.svg" alt="LinkedIn" width="24" height="24" />
+                <img src="public/linkedin.png" alt="LinkedIn" width="24" height="24" />
               </a>
             </div>
           </div>
