@@ -69,7 +69,7 @@ export default function Footer() {
         <div className="footer-bottom">
           <p>&copy; 2025 Ida-immo. Tous droits réservés.</p>
           <div className="footer-bottom-links">
-            <a href="#">Mentions légales</a>
+            <a href="#">Mentions légales </a>
             <a href="#">Politique de confidentialité</a>
             <a href="#">Conditions d&apos;utilisation</a>
           </div>
