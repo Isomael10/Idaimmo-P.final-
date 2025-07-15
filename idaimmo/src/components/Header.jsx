@@ -3,12 +3,29 @@ import React, { useEffect, useState } from "react";
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenu, setMobileMenu] = useState(false);
+  const [user, setUser] = useState(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  // Récupérer l'utilisateur connecté au chargement
+  useEffect(() => {
+    const savedUser = localStorage.getItem("user");
+    if (savedUser) {
+      setUser(JSON.parse(savedUser));
+    }
+  }, []);
+
+  // Déconnexion
+  const handleLogout = () => {
+    localStorage.removeItem("user");
+    localStorage.removeItem("token");
+    setUser(null);
+    // Optionnel : window.location.reload();
+  };
 
   return (
     <header className={scrolled ? "scrolled" : ""}>
@@ -25,8 +42,29 @@ export default function Header() {
             <li><a href="#about">À Propos</a></li>
             <li><a href="#contact">Contact</a></li>
             <li>
-  <a href="/login" style={{ color: 'white' }}>Connexion</a>
-</li>
+              {user ? (
+                <>
+                  <span style={{ color: 'white', fontWeight: "bold" }}>
+                    {user.name}
+                  </span>
+                  <button
+                    onClick={handleLogout}
+                    style={{
+                      marginLeft: "10px",
+                      background: "transparent",
+                      border: "none",
+                      color: "white",
+                      cursor: "pointer",
+                      fontWeight: "bold"
+                    }}
+                  >
+                    Déconnexion
+                  </button>
+                </>
+              ) : (
+                <a href="/login" style={{ color: 'white' }}>Connexion</a>
+              )}
+            </li>
           </ul>
         </nav>
         <div
