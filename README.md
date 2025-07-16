@@ -31,7 +31,7 @@ cd Idaimmo-P.final-
 ### 2. Installation du backend (Node.js/Express)
 
 ```bash
-cd backend
+cd idaimmo-backend
 npm install
 npm run dev
 ```
@@ -40,7 +40,7 @@ npm run dev
 ### 3. Installation du frontend (React/Vite)
 
 ```bash
-cd frontend
+cd idaimmo
 npm install
 npm run dev
 ```
@@ -65,13 +65,13 @@ Accédez à [http://localhost:5173](http://localhost:5173)
 
 ```
 Idaimmo-P.final-/
-├── backend/        # API Express + modèles Mongoose
+├── idaimmo-backend/        # API Express + modèles Mongoose
 │   ├── controllers/
 │   ├── models/
 │   ├── middleware/
 │   ├── routes/
 │   └── server.js
-├── frontend/       # Application React
+├── idaimmo/       # Application React
 │   ├── src/
 │   │   ├── components/
 │   │   ├── data/           # sampleProperties.js
