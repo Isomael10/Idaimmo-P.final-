@@ -115,7 +115,7 @@ Ouvrez une issue ou une pull request pour proposer une amélioration ou corriger
 |------------------|----------|---------------------------------------|---------------|
 | Aïssatou         | CISS     | aissatou.ciss5@unchk.edu.sn           | N04347920212  |
 | Aminata          | COLY     | aminata.coly8@unchk.edu.sn            | N00753120212  |
-| Ismaïla          | DIALLO   | ismaïla.diallo11@unchk.edu.sn         | N03533520211  |
+| Ismaïla          | DIALLO   | ismaila.diallo11@unchk.edu.sn         | N03533520211  |
 | Ramatoulaye      | DIAWARA  | ramatoulaye.diawara@unchk.edu.sn      | N05323620212  |
 | Souleymane       | DIOP     | soumleymane.diop8@unchk.edu.sn        | N00218120211  |
 | Coumba           | DIOUF    | coumba.diouf30@unchk.edu.sn           | N06077320212  |
