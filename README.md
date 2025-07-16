@@ -108,3 +108,17 @@ Les contributions sont les bienvenues !
 Ouvrez une issue ou une pull request pour proposer une amélioration ou corriger un bug.
 
 ---
+
+## Auteurs
+
+| Prénom(s)        | Nom      | Adresse électronique                  | INE           |
+|------------------|----------|---------------------------------------|---------------|
+| Aïssatou         | CISS     | aissatou.ciss5@unchk.edu.sn           | N04347920212  |
+| Aminata          | COLY     | aminata.coly8@unchk.edu.sn            | N00753120212  |
+| Ismaïla          | DIALLO   | ismaïla.diallo11@unchk.edu.sn         | N03533520211  |
+| Ramatoulaye      | DIAWARA  | ramatoulaye.diawara@unchk.edu.sn      | N05323620212  |
+| Souleymane       | DIOP     | soumleymane.diop8@unchk.edu.sn        | N00218120211  |
+| Coumba           | DIOUF    | coumba.diouf30@unchk.edu.sn           | N06077320212  |
+| Serigne          | NDAO     | serigne.ndao1@unchk.edu.sn            | N00144220211  |
+| Mouhamed         | SOUMARE  | mouhamed.soumare1@unchk.edu.sn        | N05100420201  |
+
